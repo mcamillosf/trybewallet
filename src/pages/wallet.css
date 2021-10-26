@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: cornsilk;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 10px 500px;
+}
+
+.form-wallet {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px auto;
+  width: 1200px;
+}
+
+.valor , .descricao {
+  border-radius: 5px;
+  margin: 0 3px;
+}
+
+.table-wallet {
+  margin: auto;
+  width: 1250px;
+}
+
+.table-wallet , th , td {
+  border: 1px solid black;
+}
+
+.table-wallet td {
+  text-align: center;
+}
