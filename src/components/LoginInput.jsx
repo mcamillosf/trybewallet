@@ -8,11 +8,11 @@ class LoginInput extends Component {
     return (
       <div className="login-input">
         <label htmlFor="login">
-          <p className="login-label">Login</p>
           <input
             type="text"
             id="login"
             className="log-inp"
+            placeholder="LOGIN"
             name="email"
             value={ login }
             data-testid="email-input"

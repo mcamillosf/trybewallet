@@ -43,6 +43,10 @@
 .log-inp {
   border-radius: 5px;
   height: 20px;
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  border: 0.5px solid rgb(74, 214, 46);
 }
 
 .password-input {
@@ -63,6 +67,11 @@
 .pass-inp {
   border-radius: 5px;
   height: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  border: 0.5px solid rgb(74, 214, 46);
 }
 
 .btn-form {
@@ -70,4 +79,6 @@
   border-radius: 5px;
   border-style: none;
   height: 30px;
+  width: 250px;
+  margin: auto;
 }

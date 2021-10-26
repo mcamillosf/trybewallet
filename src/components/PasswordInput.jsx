@@ -8,12 +8,12 @@ class PasswordInput extends Component {
     return (
       <div className="password-input">
         <label htmlFor="password">
-          <p className="password-label">Password</p>
           <input
             type="password"
             id="password"
             className="pass-inp"
             name="password"
+            placeholder="PASSWORD"
             value={ pass }
             data-testid="password-input"
             onChange={ func }
